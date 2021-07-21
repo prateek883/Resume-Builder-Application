@@ -10,4 +10,4 @@ resume-builder using ReactJS and NodeJS. Implementing the project will give you 
 satisfaction of auto-generating it on your own and helping working professionals with the same
 
 
-## Coming Soon.....
+
