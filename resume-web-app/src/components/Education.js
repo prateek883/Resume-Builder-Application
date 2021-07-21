@@ -55,7 +55,7 @@ class Profile extends Component {
                   InputProps={{
                     endAdornment: (
                       <InputAdornment position="start">
-                        <SchoolIcon />
+                        <SchoolIcon color="primary"/>
                       </InputAdornment>
                     ),
                   }}
@@ -75,7 +75,7 @@ class Profile extends Component {
                   InputProps={{
                     endAdornment: (
                       <InputAdornment position="start">
-                        <DateRangeIcon />
+                        <DateRangeIcon color="primary"/>
                       </InputAdornment>
                     ),
                   }}
@@ -96,7 +96,7 @@ class Profile extends Component {
                   InputProps={{
                     endAdornment: (
                       <InputAdornment position="start">
-                        <DateRangeIcon />
+                        <DateRangeIcon color="primary"/>
                       </InputAdornment>
                     ),
                   }}
@@ -146,7 +146,7 @@ class Profile extends Component {
                   InputProps={{
                     endAdornment: (
                       <InputAdornment position="end">
-                        <SchoolIcon />
+                        <SchoolIcon color="primary"/>
                       </InputAdornment>
                     ),
                   }}
@@ -157,7 +157,7 @@ class Profile extends Component {
                   margin="dense"
                   variant="outlined"
                   name="fromyear2"
-                  label="From Year"
+                  // label="From Year"
                   type="date"
                   style={{width: '80%'}}
                   required
@@ -166,7 +166,7 @@ class Profile extends Component {
                   InputProps={{
                     endAdornment: (
                       <InputAdornment position="start">
-                        <DateRangeIcon />
+                        <DateRangeIcon color="primary"/>
                       </InputAdornment>
                     ),
                   }}
@@ -183,7 +183,7 @@ class Profile extends Component {
                   margin="dense"
                   variant="outlined"
                   name="toyear2"
-                  label="To Year"
+                  // label="To Year"
                   type="date"
                   style={{width: '80%'}}
                   required
@@ -192,7 +192,7 @@ class Profile extends Component {
                   InputProps={{
                     endAdornment: (
                       <InputAdornment position="start">
-                        <DateRangeIcon />
+                        <DateRangeIcon color="primary" />
                       </InputAdornment>
                     ),
                   }}

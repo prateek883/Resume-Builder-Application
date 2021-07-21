@@ -79,7 +79,7 @@ class Profile extends Component {
                   InputProps={{
                     endAdornment: (
                       <InputAdornment position="end">
-                        <EmailIcon />
+                        <EmailIcon color="primary"/>
                       </InputAdornment>
                     ),
                   }}
@@ -98,7 +98,7 @@ class Profile extends Component {
                   InputProps={{
                     endAdornment: (
                       <InputAdornment position="end">
-                        <PhoneIcon />
+                        <PhoneIcon color="primary"/>
                       </InputAdornment>
                     ),
                   }}
@@ -117,7 +117,7 @@ class Profile extends Component {
                   InputProps={{
                     endAdornment: (
                       <InputAdornment position="end">
-                        <LanguageIcon />
+                        <LanguageIcon color="primary"/>
                       </InputAdornment>
                     ),
                   }}
@@ -135,7 +135,7 @@ class Profile extends Component {
                   InputProps={{
                     endAdornment: (
                       <InputAdornment position="end">
-                        <GitHubIcon />
+                        <GitHubIcon color="primary"/>
                       </InputAdornment>
                     ),
                   }}
@@ -153,7 +153,7 @@ class Profile extends Component {
                   InputProps={{
                     endAdornment: (
                       <InputAdornment position="end">
-                        <LinkedInIcon />
+                        <LinkedInIcon color="primary"/>
                       </InputAdornment>
                     ),
                   }}
@@ -171,7 +171,7 @@ class Profile extends Component {
                   InputProps={{
                     endAdornment: (
                       <InputAdornment position="end">
-                        <TwitterIcon />
+                        <TwitterIcon color="primary"/>
                       </InputAdornment>
                     ),
                   }}
@@ -189,7 +189,7 @@ class Profile extends Component {
                   InputProps={{
                     endAdornment: (
                       <InputAdornment position="end">
-                        <FacebookIcon />
+                        <FacebookIcon color="primary"/>
                       </InputAdornment>
                     ),
                   }}
@@ -207,7 +207,7 @@ class Profile extends Component {
                   InputProps={{
                     endAdornment: (
                       <InputAdornment position="end">
-                        <InstagramIcon />
+                        <InstagramIcon color="primary"/>
                       </InputAdornment>
                     ),
                   }}
@@ -231,7 +231,7 @@ class Profile extends Component {
                 <Col lg={3} xs={5}>
                   <Button
                     variant="contained"
-                    color="secondary"
+                    color="primary"
                     onClick={this.continue}
                     endIcon={<NavigateNextIcon />}
                   >
